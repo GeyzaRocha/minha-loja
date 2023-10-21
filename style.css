@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+.cabecalho {
+    background-color: #7C71FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 1440px;
+
+}
+.info-usuario {
+    margin-left: 30px;
+}
+#nomecompleto {
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+#ultimologin {
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+li {
+    display: inline-block;
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+a {
+    text-decoration: none;
+}
+.nome {
+    text-transform: uppercase;
+}
+.nova-colecao {
+    background-color: #D7E2FF;
+    width: 1440px;
+    height: 532px;
+    top: 100px;
+}
+.titulo-secao-colecao {
+    color: #200065;
+    text-align: center;
+    font-family: 'Abril Fatface';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    
+}
+.ganhe10 {
+    color: #200065;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+#dez {
+    color: #200065;
+    font-family: 'Inter';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.link-site {
+    display: flex;
+    justify-content: center;
+}
+.imagens {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    gap: 70px;
+    top: 156px;
+    left: 47px;
+    right: 47px;
+}
+img{
+    width: 284px;
+    height: 284px;
+}
+.image {
+    background-color: transparent;
+}
+.secao-cliente {
+    text-align: center;
+    top: 632px;
+    background: #AEBFEB;
+    width: 1440px;
+    height: 616px;
+}
+.secao-avaliacao{
+    top: 114px;
+    display: flex;
+    background: #AEBFEB;
+    width: 1334px;
+    height: 427px;
+    align-items: center;
+    justify-content: center;
+}
+.bloco {
+    display: flex;
+    background: #D4E0FF;
+    width: 427px;
+    height: 427px;
+	border: 1px solid #ccc;
+
+}
+#tit-clientes {
+    display: inline-block;
+    justify-content: center;
+    color: #881074;
+}
+.texto {
+    text-align: center;
+}
+.paragrafo {
+
+}
+.secao-pedidos {
+    background: #D7E2FF;
+    width: 1440px;
+    height: 441px;
+    top: 1248px;
+
+}
+.secao-fale-conosco {
+    background: #AEBFEB;
+    width: 1440px;
+    height: 685px;
+    top: 1689px;    
+}
+footer{
+    background: #3F3F3F;
+    width: 1440px;
+    height: 108px;
+}
+#copyright {
+    background: #FFFFFF;
+
+}
